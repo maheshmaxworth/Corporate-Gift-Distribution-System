@@ -1,0 +1,63 @@
+/* Editor background */
+.tox .tox-editor-container {
+  @apply bg-skyBlueTheme-mainBG dark:bg-dark-800 !important;
+}
+
+/* Toolbar background */
+.tox .tox-toolbar,
+.tox .tox-editor-header,
+.tox .tox-menu,
+.tox .tox-menubar,
+.tox .tox-toolbar__primary {
+  @apply bg-skyBlueTheme-cardColor dark:bg-dark-800 !important;
+}
+
+.tox .tox-collection--toolbar .tox-collection__item--active,
+.tox .tox-collection--toolbar .tox-collection__item--enabled {
+  @apply bg-skyBlueTheme-diversityMain dark:bg-dark-600 !important;
+}
+
+/* Toolbar button color */
+.tox .tox-toolbar__group button,
+.tox .tox-mbtn {
+  @apply text-skyBlueTheme-text dark:text-white !important;
+}
+
+.tox .tox-tbtn svg {
+  @apply fill-skyBlueTheme-text dark:text-white !important;
+}
+
+/* Toolbar button hover/active state */
+.tox .tox-tbtn--enabled,
+.tox .tox-tbtn--enabled:hover,
+.tox .tox-tbtn:hover,
+.tox .tox-mbtn:hover {
+  @apply bg-skyBlueTheme-diversityMain dark:bg-dark-600 !important;
+}
+
+/* Status bar styles */
+.tox .tox-statusbar,
+.tox {
+  @apply bg-skyBlueTheme-mainBG dark:bg-dark-800 text-skyBlueTheme-text dark:text-white !important;
+}
+
+.tox .tox-statusbar a,
+.tox .tox-statusbar__path-item,
+.tox .tox-statusbar__wordcount {
+  @apply text-skyBlueTheme-text dark:text-white !important;
+}
+
+/* Dropdown menu item text */
+.tox .tox-collection__item {
+  @apply text-skyBlueTheme-text dark:text-white !important;
+}
+
+/* Editor content area */
+.tox.tox-tinymce {
+  @apply border border-skyBlueTheme-outsideCardColor dark:border-dark-700 text-skyBlueTheme-text dark:text-white !important;
+}
+
+/* Change the content area background color */
+.tox .tox-edit-area__iframe {
+  @apply bg-skyBlueTheme-mainBG dark:bg-dark-800 text-skyBlueTheme-text dark:text-white !important;
+}
